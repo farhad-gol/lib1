@@ -5,6 +5,7 @@ plugins {
 }
 
 group = "com.github.farhad-gol"
+version = "3.0.1"
 
 android {
     namespace = "com.fsc.lib1"
@@ -50,7 +51,7 @@ publishing {
         register<MavenPublication>("release") {
             groupId = "com.github.farhad-gol"
             artifactId = "lib1"
-            version = "1.0"
+            version = "3.0.1"
 
             afterEvaluate {
                 from(components["release"])
